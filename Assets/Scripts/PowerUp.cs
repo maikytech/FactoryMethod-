@@ -2,13 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class PowerUp : MonoBehaviour
+namespace PowerUps
 {
-    // _ private
-    [SerializeField] private string _id;
+    public abstract class PowerUp : MonoBehaviour
+    {
+        // _ private
+        [SerializeField] private string _id;
 
-    //Get
-    //public = capital letters
-    public string Id => _id;
+        //Get
+        //public = capital letters
+        public string Id => _id;
 
+    }
 }
+
+
